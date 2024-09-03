@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantogram" company="" webLink="http://" view-date="2024-08-21" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#66ccff #ff6666 #99ff99 #33ff33 #ff00cc #cc0099 #cc00cc #990099 #660066 #006666]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="8e9e347c3852447f81f7b23848857b89" name="Definisanje projekta" color="#99ff99" meeting="false" start="2024-08-28" duration="3" complete="0" expand="true">
+            <task id="1" uid="981ed25ba182466d9e04e2db9c972ee3" name="Prikupljanje i analiza podataka" color="#99ff99" meeting="false" start="2024-08-28" duration="1" complete="0" expand="true"/>
+            <task id="2" uid="223a70d24bd6497baee94b2b4e77bfe1" name="Definisanje principa rada sistema - hardver" color="#99ff99" meeting="false" start="2024-08-28" duration="2" complete="0" expand="true"/>
+            <task id="3" uid="4a5930c5e482454482f9d5b23912cf9a" name="Definisanje principa rada - softver" color="#99ff99" meeting="false" start="2024-08-29" duration="1" complete="0" expand="true"/>
+            <task id="4" uid="4018ffe5856642499d3594bb932d7f0c" name="Definisanje potrebnih komponenti i programa" color="#99ff99" meeting="false" start="2024-08-29" duration="1" complete="0" expand="true"/>
+            <task id="5" uid="ed8e1f98ac7541dca54ba847e057bc5c" name="Priprema radnog okruženja, nabavka komponenti" color="#99ff99" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="6" uid="40f8d16d5f8043ba8d0e56ac83e4765b" name="Realizacija projekta" color="#ff6666" meeting="false" start="2024-08-30" duration="5" complete="0" expand="true">
+            <task id="7" uid="afc72f7f771f4fe2aeb8e6bf1703e6b7" name="Projektovanje sistema" color="#ff6666" meeting="false" start="2024-08-30" duration="2" complete="0" expand="true"/>
+            <task id="8" uid="ae738dcb10fc4294a6584385a2076362" name="Izrada šeme hardvera - Proteus" color="#ff6666" meeting="false" start="2024-08-31" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="2655d8725184456787c55037e5757afc" name="Izrada sistema - Hardver" color="#ff6666" meeting="false" start="2024-08-31" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="ed582b7f4e45417bb437f41162eab23b" name="Izrada sistema - Softver – programiranje softvera" color="#ff6666" meeting="false" start="2024-08-31" duration="4" complete="0" expand="true"/>
+            <task id="11" uid="dc76e29b0b01417590078612b5bb2d50" name="Testiranje i provera sistema - nalaženje i otklanjanje  grešaka (nedostataka)" color="#ff6666" meeting="false" start="2024-09-01" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="13" uid="d499c51eb80c477d9e0ff3f0c0de8279" name="Finalizacija projekta" color="#66ccff" meeting="false" start="2024-09-01" duration="3" complete="0" expand="true">
+            <task id="14" uid="9f8a497d72f2474e913f90b2b1b90711" name="Završetak izrade sistema" color="#66ccff" meeting="false" start="2024-09-01" duration="2" complete="0" expand="true"/>
+            <task id="15" uid="2903f6f647084c23aa57f8bd8797b241" name="Izrada projektne dokumentacije" color="#66ccff" meeting="false" start="2024-09-01" duration="3" complete="0" expand="true"/>
+            <task id="16" uid="9294aecd2ec148e8882afe1a67aabf9d" name="Finalizacija celokupnog projekta" color="#66ccff" meeting="false" start="2024-09-02" duration="2" complete="0" expand="true"/>
+            <task id="17" uid="311a1bfe7f094ceca516f0eb7d6ac8ef" name="Isporuka finalnog projekta" color="#66ccff" meeting="false" start="2024-09-03" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
